@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+name=${1:-nick}
+surname=${2:-Riviera}
+
+{
+	echo "CAP LS 302"
+	echo "PASS 1234"
+	echo "NICK $name"
+	echo "USER $name 0 * :${name^} ${surname^}"
+	echo "CAP END"
+	cat
+} | nc -C localhost 6667

@@ -1,0 +1,7 @@
+*.o
+ircserv
+deps
+obj
+bot
+bot-compiled
+.env
