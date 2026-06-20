@@ -2,6 +2,8 @@
 
 # ft_irc
 
+![IRC server screenshot](screenshot.png)
+
 ## Description
 
 <!-- Clearly presents the project, including its goal and a brief overview. -->
